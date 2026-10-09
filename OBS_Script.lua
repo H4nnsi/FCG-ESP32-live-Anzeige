@@ -1,7 +1,7 @@
 obslua = require("obslua")
 
 -- Standardmäßig eine oder mehrere IPs mit Komma getrennt eintragen
-local default_ips = "192.168.5.168"
+local default_ips = ""
 local esp_ips_raw = default_ips
 
 -- Hilfsfunktion: Teilt einen String am Komma in eine Array-Tabelle auf
